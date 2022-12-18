@@ -1,0 +1,139 @@
+.zoomable-image {
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.zoomable-image img {
+  cursor: zoom-in;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  transition: transform 0.25s ease-in-out;
+}
+.zoomable-image input {
+  display: none;
+}
+.zoomable-image input:checked ~ label > img {
+  cursor: zoom-out;
+  transform: scale(3);
+  position: relative;
+  left: 30vw;
+}
+
+.zoomable-image2 {
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.zoomable-image2 img {
+  cursor: zoom-in;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  transition: transform 0.25s ease-in-out;
+}
+.zoomable-image2 input {
+  display: none;
+}
+.zoomable-image2 input:checked ~ label > img {
+  cursor: zoom-out;
+  transform: scale(4);
+}
+
+.zoomable-image3 {
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.zoomable-image3 img {
+  cursor: zoom-in;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  transition: transform 0.25s ease-in-out;
+}
+.zoomable-image3 input {
+  display: none;
+}
+.zoomable-image3 input:checked ~ label > img {
+  cursor: zoom-out;
+  transform: scale(4);
+  position: relative;
+  right: 30vw;
+}
+
+@media (max-width: 875px) {
+  .zoomable-image {
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .zoomable-image img {
+    cursor: zoom-in;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    transition: transform 0.25s ease-in-out;
+  }
+  .zoomable-image input {
+    display: none;
+  }
+  .zoomable-image input:checked ~ label > img {
+    cursor: zoom-out;
+    transform: scale(2.5);
+    position: relative;
+    left: 30vw;
+  }
+  .zoomable-image2 {
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .zoomable-image2 img {
+    cursor: zoom-in;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    transition: transform 0.25s ease-in-out;
+  }
+  .zoomable-image2 input {
+    display: none;
+  }
+  .zoomable-image2 input:checked ~ label > img {
+    cursor: zoom-out;
+    transform: scale(3);
+  }
+  .zoomable-image3 {
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .zoomable-image3 img {
+    cursor: zoom-in;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    transition: transform 0.25s ease-in-out;
+  }
+  .zoomable-image3 input {
+    display: none;
+  }
+  .zoomable-image3 input:checked ~ label > img {
+    cursor: zoom-out;
+    transform: scale(3);
+    position: relative;
+    right: 30vw;
+  }
+}/*# sourceMappingURL=archives.css.map */

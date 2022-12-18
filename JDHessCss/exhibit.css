@@ -1,0 +1,95 @@
+  
+
+  
+  .cards {
+    display: flex;
+    padding: 3rem;
+    overflow-x: scroll;
+    background-color: white; 
+    position: relative; 
+  }
+  
+  .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white !important;
+    border-radius: 16px;
+    width: 400px;
+    min-width: 250px;
+    min-height: 350px;
+    box-shadow: -1rem 0 3rem rgb(112, 112, 112);
+    padding: 1.5rem;
+    transition: 0.2s;
+  }
+  .card1 {
+    width: 600px !important;
+  }
+
+  .card-author{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 60px;
+    align-items: center;
+  }
+  
+  .author-name{
+    font-family: "Lora", serif;
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+  
+  .author-name-prefix{
+    color: #000000;
+    font-family: arial;
+    font-weight: bold;
+  }
+  
+  
+  /*  card scrollbar */
+  .cards::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Card Hover */
+  .card:hover {
+    transform: translateX(1rem);
+    transform: translateX(130px);
+}
+  .card:not(:first-child) {
+    margin-left: -130px;
+    
+  }
+  
+  /*.card:hover ~ .card {
+    transform: translateX(130px);
+  }*/
+  
+  .card:nth-child(1){
+    z-index: 3;
+  }
+  
+  .card:nth-child(2) {
+    z-index: 2;
+  }
+  .card:nth-child(3) {
+    z-index: 1;
+  }
+ /* .card:nth-child(4) {
+    z-index: 4;
+  }*/
+
+  
+  
+  
+  
+  /* Card Responsive */
+  
+  @media (max-width: 989px) {
+    .cards {
+        font-size: 12pt !important;
+    }
+  }
+  
+  

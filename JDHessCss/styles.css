@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/*
+.txtsize {
+    font-size: 270pt;
+    font-weight: bolder;
+}
+.animate-charctert
+{
+   text-transform: uppercase;
+  background-image: url("../Images/menada-small.JPG");
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 100% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 6s linear infinite;
+  display: inline-block;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 16px;
+    min-width: 250px;
+    padding: 0;
+    transition: 0.2s;
+  }  */
+  /*  card scrollbar */
+  /*.cards::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }*/
+  
+  /* Card Hover */
+
+  
+  /*.card:hover ~ .card {
+    transform: translateX(130px);
+  }*/
+
+
+img {
+    display: block !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+.imgposition {
+    position: relative; 
+    left: 47px;
+    top: -1px;    
+}
+
+.add {
+    display:flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Lato, sans-serif;
+    background: #333;
+  }
+
+.img5 {
+    height: 200px;
+}  
+
+
+/*Dedicated to the promotion and affirmation
+of Macedonian cultural heritage. section*/
+.mable {
+    font-size: 26pt;
+    
+}
+.dedicated {
+    position: relative;
+    top: -20px;
+}
+
+/*Our main objective is to introduce to people worldwide the rich traditions, language, literature, and art of a nation whose diverse cultural threads are interwoven into the ethnic tapestries of the world. section*/
+.pine {
+    font-size: 20pt;
+}
+/*Title img Arts hero image*/
+@media only screen and (min-width: 0px) {
+    .card-img-top {
+        position: relative;
+        z-index: 2;
+        height: auto;
+        width: auto;
+        transform: translateY(0);
+        transition: 0.5s;
+        
+      }
+   }
+
+@media only screen and (max-width: 995px) {
+    .mable {
+        font-size: 20pt;
+    }
+    .pine {
+     font-size: 15pt;
+ }
+   }
+
+@media only screen and (max-width: 992px) {
+    .pose {
+        position: relative;
+        top: -100px;
+    }
+   }
+   
