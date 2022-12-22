@@ -70,6 +70,8 @@ function debounce(func, wait, immediate) {
 }
 window.addEventListener("mousemove", debounce(scroll));
 
+
+
 function scroll(event) {
    var checkbox = document.getElementById("zoomable-image-checkbox3");
 
@@ -103,3 +105,8 @@ function debounce(func, wait, immediate) {
       if (callNow) func.apply(context, args);
    };
 }
+
+
+
+
+
