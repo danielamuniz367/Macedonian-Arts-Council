@@ -3,20 +3,21 @@
 	margin-left: 50px;
 	 display: flex;
 	 /*align-items: center;*/
-	 justify-content: left;
+	 justify-content: left !important;
 	}
 .zoomable-image2 {
 		margin-top: 10px;
 		 display: flex;
 		 /*align-items: center;*/
-		 justify-content: left;
+		 justify-content: left !important;
 		}
 .zoomable-image3 {
 			margin-top: 10px;
 			 margin-left: 40px;
 			 display: flex;
 			 /*align-items: center;*/
-			 justify-content: left;}
+			 justify-content: left !important;
+			}
 
 .wrapper {
 	width: 60%;
