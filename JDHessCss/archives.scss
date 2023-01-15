@@ -1,8 +1,9 @@
 .zoomable-image {
-    margin: 1rem auto;
+   margin-top: 10px; 
+   margin-left: 50px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /*align-items: center;*/
+    justify-content: left;
  
     img {
        cursor: zoom-in;
@@ -23,10 +24,10 @@
     }
  }
  .zoomable-image2 {
-    margin: 1rem auto;
+   margin-top: 10px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /*align-items: center;*/
+    justify-content: left;
  
     img {
        cursor: zoom-in;
@@ -44,10 +45,11 @@
     }
  }
  .zoomable-image3 {
-    margin: 1rem auto;
+   margin-top: 10px;
+    margin-left: 40px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /*align-items: center;*/
+    justify-content: left;
  
     img {
        cursor: zoom-in;
@@ -66,7 +68,7 @@
        }
     }
  }
- $breakpoint-tablet: 875px;
+ /*$breakpoint-tablet: 875px;
 @media (max-width: $breakpoint-tablet) {
     .zoomable-image {
         margin: 1rem auto;
@@ -136,5 +138,5 @@
            }
         }
      }
-}
+}*/
  
