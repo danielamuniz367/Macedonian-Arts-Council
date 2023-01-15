@@ -42,7 +42,7 @@
 }
 .zoomable-image2 input:checked ~ label > img {
   cursor: zoom-out;
-  transform: scale(4);
+  transform: scale(3);
 }
 
 .zoomable-image3 {
@@ -65,7 +65,7 @@
 }
 .zoomable-image3 input:checked ~ label > img {
   cursor: zoom-out;
-  transform: scale(4);
+  transform: scale(3);
   position: relative;
   right: 30vw;
 }
