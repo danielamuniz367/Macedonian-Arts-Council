@@ -1,6 +1,45 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+}
+.size-23{
+  width: 300px; position: relative; left: 200px;
+}
+.size-24{
+  position: relative; left: -60px;
+}
+@media screen and (max-width: 1199px) {
+  .size-23{
+    width: 300px; position: relative; left: 150px;
+  }
+  .size-24{
+    position: relative; left: -20px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .size-23{
+    width: 300px; position: relative; left: 90px;
+  }
+  .size-24{
+    position: relative; left: 40px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .size-23{
+    width: 300px; position: relative; left: 40px;
+  }
+  .size-24{
+    position: relative; left: 80px;
+  }
+}
+@media screen and (max-width: 543px) {
+  .size-24{
+    position: relative; left: -110px; top: 50px;
+  }
+}
+.hover:hover{
+  color: grey;
 }
 /*
 .txtsize {
