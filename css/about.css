@@ -1,3 +1,8 @@
+.about {
+  position: relative;
+  top: 90px;
+}
+
 .height {
   width: 920px;
 }
@@ -30,30 +35,26 @@ img {
 }
 .move1 {
   position: relative;
-  top: -100px;
   z-index: -1;
-}
-
-.mbr-section {
-  top: 90px;
-  padding-top: 90px;
 }
 
 .director {
+  padding-top: 25px;
   position: relative;
-  top: -100px;
   z-index: -1;
+}
+
+.directors {
+  padding-top: 30px;
 }
 
 /*Our Awesome team*/
 .awesome {
   position: relative;
-  top: -80px;
   z-index: -1;
 }
 .move2 {
   position: relative;
-  top: -70px;
   z-index: -1;
 }
 .tophr {
