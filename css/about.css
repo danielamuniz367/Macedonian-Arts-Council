@@ -1,0 +1,148 @@
+.height {
+  width: 920px;
+}
+.herocontain {
+  height: 500px;
+  position: relative;
+  top: 150px;
+}
+.stickyimg {
+  position: relative;
+  height: 300px;
+}
+.hero-image {
+  /*I own this image*/
+  background-image: url("../assets/images/skquote-1500x480.png");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /*image is fixed in background all other elements are scrolling*/
+  /*background attachement makes image fixed*/
+  position: relative;
+}
+img {
+  display: block !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
+.language1 {
+  top: 100px;
+}
+.move1 {
+  position: relative;
+  top: -100px;
+  z-index: -1;
+}
+
+.mbr-section {
+  top: 90px;
+  padding-top: 90px;
+}
+
+.director {
+  position: relative;
+  top: -100px;
+  z-index: -1;
+}
+
+/*Our Awesome team*/
+.awesome {
+  position: relative;
+  top: -80px;
+  z-index: -1;
+}
+.move2 {
+  position: relative;
+  top: -70px;
+  z-index: -1;
+}
+.tophr {
+  position: relative;
+  top: -60px;
+}
+.bottomhr {
+  position: relative;
+  top: 60px;
+}
+.fontsize {
+  font-size: 18pt;
+}
+.text-justify {
+  text-align: justify !important;
+}
+.width1 {
+  width: 790px;
+}
+.movie7 {
+  position: relative;
+  top: -44px;
+}
+/*1199*/
+@media only screen and (max-width: 1199px) {
+  .width1 {
+    width: 650px;
+  }
+}
+@media only screen and (max-width: 1297px) {
+  .fontsize {
+    font-size: 16pt;
+  }
+}
+@media only screen and (max-width: 1165px) {
+  .fontsize {
+    font-size: pt;
+  }
+}
+@media only screen and (max-width: 1292px) {
+  .height {
+    width: 920px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .height {
+    width: 790px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .height {
+    width: 630px;
+  }
+  .width1 {
+    width: 480px;
+  }
+  .movie7 {
+    position: relative;
+    top: 0px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .height {
+    width: 100%;
+  }
+  .width1 {
+    width: 420px;
+  }
+}
+
+.sizing {
+  width: 920px;
+  margin-left: 95px !important;
+}
+@media only screen and (max-width: 1199px) {
+  .sizing {
+    margin-left: 75px !important;
+    width: 780px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .sizing {
+    margin-left: 45px !important;
+    width: 600px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .sizing {
+    margin-left: 21px !important;
+    width: 470px;
+  }
+}
