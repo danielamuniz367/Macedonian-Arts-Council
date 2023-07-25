@@ -1,6 +1,13 @@
 .about {
   position: relative;
   top: 90px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 130px;
+}
+
+.blockquote {
+  font-size: 1.5rem !important;
 }
 
 .height {
@@ -39,7 +46,6 @@ img {
 }
 
 .director {
-  padding-top: 25px;
   position: relative;
   z-index: -1;
 }
@@ -53,6 +59,15 @@ img {
   position: relative;
   z-index: -1;
 }
+
+.advisors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background-color: #efefef !important;
+}
+
 .move2 {
   position: relative;
   z-index: -1;
@@ -109,7 +124,7 @@ img {
     width: 630px;
   }
   .width1 {
-    width: 480px;
+    width: 100%;
   }
   .movie7 {
     position: relative;
@@ -117,11 +132,15 @@ img {
   }
 }
 @media only screen and (max-width: 768px) {
+  .blockquote {
+    font-size: 1rem !important;
+  }
+
   .height {
     width: 100%;
   }
   .width1 {
-    width: 420px;
+    width: 100%;
   }
 }
 
