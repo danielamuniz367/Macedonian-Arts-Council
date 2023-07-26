@@ -6,6 +6,27 @@
   padding-bottom: 130px;
 }
 
+.advisor-items {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem 2.5rem;
+  gap: 1rem;
+}
+
+.advisor-items > div {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  max-width: 22.5%;
+}
+
+.advisor-items img {
+  max-height: 250px;
+}
+
 .blockquote {
   font-size: 1.5rem !important;
 }
@@ -35,7 +56,6 @@
 img {
   display: block !important;
   max-width: 100% !important;
-  height: auto !important;
 }
 .language1 {
   top: 100px;
@@ -129,6 +149,10 @@ img {
   .movie7 {
     position: relative;
     top: 0px;
+  }
+
+  .advisor-items > div {
+    max-width: unset;
   }
 }
 @media only screen and (max-width: 768px) {
