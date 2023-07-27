@@ -1,0 +1,19 @@
+.card-wrapper,
+.card-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.cta-btn {
+  border-radius: 100px !important;
+  min-width: 175px !important;
+  margin: 0 3rem !important;
+}
+
+.card-img {
+  min-height: 350px;
+}
+
+.card-img img {
+  height: 100%;
+}
