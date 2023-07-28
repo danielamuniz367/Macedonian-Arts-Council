@@ -49,8 +49,9 @@
   max-height: 250px;
 }
 
-.blockquote {
+blockquote {
   font-size: 1.5rem !important;
+  border-left: unset !important;
 }
 
 .height {
@@ -114,14 +115,11 @@ img {
   position: relative;
   z-index: -1;
 } */
-.tophr {
-  position: relative;
-  top: -60px;
-}
+.tophr,
 .bottomhr {
   position: relative;
-  top: 60px;
 }
+
 .fontsize {
   font-size: 18pt;
 }
