@@ -15,6 +15,18 @@
   text-transform: uppercase;
 }
 
+.mbr-section-subtitle {
+  text-align: justify;
+  text-align-last: center;
+  /* font-size: 24px; */
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
 .advisor-items {
   background-color: #efefef;
   display: flex;
@@ -198,5 +210,9 @@ img {
   .sizing {
     margin-left: 21px !important;
     width: 470px;
+  }
+
+  .mbr-section-subtitle {
+    font-size: 16px;
   }
 }

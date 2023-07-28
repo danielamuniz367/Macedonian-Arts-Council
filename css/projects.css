@@ -1,3 +1,18 @@
+.projects {
+  position: relative;
+  top: 90px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 130px;
+}
+
+.apply {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
 .card-wrapper,
 .card-box {
   display: flex;
@@ -10,10 +25,59 @@
   margin: 0 3rem !important;
 }
 
-.card-img {
-  min-height: 350px;
+/* .card-img {
+  max-height: 150px;
+} */
+
+.form_mailing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.card-img img {
-  height: 100%;
+.form_mailing > * {
+  min-height: 36px;
+}
+
+.heading-project {
+  margin: 24px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.heading-project > strong {
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 767px) {
+  .apply {
+    margin-bottom: 4rem !important;
+  }
+
+  .apply h4 {
+    font-size: 18px;
+  }
+
+  .card-img {
+    min-height: unset;
+  }
+
+  .cta-btn {
+    width: 100% !important ;
+    margin: 0 !important;
+  }
+
+  .heading-project {
+    font-size: 24px;
+  }
+
+  li.nav-item {
+    width: 100%;
+    text-align: center;
+  }
+
+  .form_mailing .w-50,
+  button {
+    width: 100% !important;
+  }
 }
