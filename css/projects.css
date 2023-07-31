@@ -11,12 +11,15 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+  padding: 32px;
+  border: 2px solid #da2326;
 }
 
 .card-wrapper,
 .card-box {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .cta-btn {
@@ -39,16 +42,6 @@
   min-height: 36px;
 }
 
-.heading-project {
-  margin: 24px 0;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.heading-project > strong {
-  line-height: 1.5;
-}
-
 @media screen and (max-width: 767px) {
   .apply {
     margin-bottom: 4rem !important;
@@ -65,15 +58,6 @@
   .cta-btn {
     width: 100% !important ;
     margin: 0 !important;
-  }
-
-  .heading-project {
-    font-size: 24px;
-  }
-
-  li.nav-item {
-    width: 100%;
-    text-align: center;
   }
 
   .form_mailing .w-50,

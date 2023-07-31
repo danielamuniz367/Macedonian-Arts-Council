@@ -161,6 +161,12 @@ of Macedonian cultural heritage. section*/
   }
 }
 
+.heading-project {
+  margin: 24px 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .stack {
   display: flex;
   flex-direction: column;
@@ -190,6 +196,18 @@ of Macedonian cultural heritage. section*/
 
 .home-card-text p {
   min-height: 225px;
+}
+
+.section__main {
+  position: relative;
+  top: 90px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 130px;
+}
+
+.wrapper__cards {
+  justify-content: center;
 }
 
 @media screen and (max-width: 767px) {
