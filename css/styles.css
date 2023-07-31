@@ -1,44 +1,58 @@
 body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
-.size-23{
-  width: 300px; position: relative; left: 200px;
+.size-23 {
+  width: 300px;
+  position: relative;
+  left: 200px;
 }
-.size-24{
-  position: relative; left: -60px;
+.size-24 {
+  position: relative;
+  left: -60px;
 }
 @media screen and (max-width: 1199px) {
-  .size-23{
-    width: 300px; position: relative; left: 150px;
+  .size-23 {
+    width: 300px;
+    position: relative;
+    left: 150px;
   }
-  .size-24{
-    position: relative; left: -20px;
+  .size-24 {
+    position: relative;
+    left: -20px;
   }
 }
 @media screen and (max-width: 991px) {
-  .size-23{
-    width: 300px; position: relative; left: 90px;
+  .size-23 {
+    width: 300px;
+    position: relative;
+    left: 90px;
   }
-  .size-24{
-    position: relative; left: 40px;
+  .size-24 {
+    position: relative;
+    left: 40px;
   }
 }
 @media screen and (max-width: 767px) {
-  .size-23{
-    width: 300px; position: relative; left: 40px;
+  .size-23 {
+    width: 300px;
+    position: relative;
+    left: 40px;
   }
-  .size-24{
-    position: relative; left: 80px;
+  .size-24 {
+    position: relative;
+    left: 80px;
   }
 }
 @media screen and (max-width: 543px) {
-  .size-24{
-    position: relative; left: -110px; top: 50px;
+  .size-24 {
+    position: relative;
+    left: -110px;
+    top: 50px;
   }
 }
-.hover:hover{
+.hover:hover {
   color: grey;
 }
 /*
@@ -69,86 +83,117 @@ body {
     padding: 0;
     transition: 0.2s;
   }  */
-  /*  card scrollbar */
-  /*.cards::-webkit-scrollbar {
+/*  card scrollbar */
+/*.cards::-webkit-scrollbar {
     width: 10px;
     height: 10px;
   }*/
-  
-  /* Card Hover */
 
-  
-  /*.card:hover ~ .card {
+/* Card Hover */
+
+/*.card:hover ~ .card {
     transform: translateX(130px);
   }*/
 
-
 img {
-    display: block !important;
-    max-width: 100% !important;
-    height: auto !important;
-  }
+  display: block !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
 .imgposition {
-    position: relative; 
-    left: 47px;
-    top: -1px;    
+  position: relative;
+  left: 47px;
+  top: -1px;
 }
 
 .add {
-    display:flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    font-family: Lato, sans-serif;
-    background: #333;
-  }
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: Lato, sans-serif;
+  background: #333;
+}
 
 .img5 {
-    height: 200px;
-}  
-
+  height: 200px;
+}
 
 /*Dedicated to the promotion and affirmation
 of Macedonian cultural heritage. section*/
 .mable {
-    font-size: 26pt;
-    
+  font-size: 26pt;
 }
 .dedicated {
-    position: relative;
-    top: -20px;
+  position: relative;
+  top: -20px;
 }
 
 /*Our main objective is to introduce to people worldwide the rich traditions, language, literature, and art of a nation whose diverse cultural threads are interwoven into the ethnic tapestries of the world. section*/
 .pine {
-    font-size: 20pt;
+  font-size: 20pt;
 }
 /*Title img Arts hero image*/
 @media only screen and (min-width: 0px) {
-    .card-img-top {
-        position: relative;
-        z-index: 2;
-        height: auto;
-        width: auto;
-        transform: translateY(0);
-        transition: 0.5s;
-        
-      }
-   }
+  .card-img-top {
+    position: relative;
+    z-index: 2;
+    height: auto;
+    width: auto;
+    transform: translateY(0);
+    transition: 0.5s;
+  }
+}
 
 @media only screen and (max-width: 995px) {
-    .mable {
-        font-size: 20pt;
-    }
-    .pine {
-     font-size: 15pt;
- }
-   }
+  .mable {
+    font-size: 20pt;
+  }
+  .pine {
+    font-size: 15pt;
+  }
+}
 
 @media only screen and (max-width: 992px) {
-    .pose {
-        position: relative;
-        top: -100px;
-    }
-   }
-   
+  .pose {
+    position: relative;
+    top: -100px;
+  }
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.stack > * {
+  margin: 1.5rem 0 0 0;
+}
+
+.stack > :last-child {
+  margin: 1.5rem 0;
+}
+
+.wrapper__cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper__cta > .button {
+  margin: auto;
+}
+
+.btn {
+  border-radius: 100px;
+}
+
+.home-card-text p {
+  min-height: 225px;
+}
+
+@media screen and (max-width: 767px) {
+  .home-card-text p {
+    min-height: unset;
+  }
+}
