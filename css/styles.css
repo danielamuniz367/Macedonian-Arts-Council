@@ -190,6 +190,10 @@ of Macedonian cultural heritage. section*/
   margin: auto;
 }
 
+.border__light {
+  border: 1px solid lightgray;
+}
+
 .btn {
   border-radius: 100px;
 }
