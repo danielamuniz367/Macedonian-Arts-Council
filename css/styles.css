@@ -95,11 +95,6 @@ body {
     transform: translateX(130px);
   }*/
 
-img {
-  display: block !important;
-  max-width: 100% !important;
-  height: auto !important;
-}
 .imgposition {
   position: relative;
   left: 47px;
