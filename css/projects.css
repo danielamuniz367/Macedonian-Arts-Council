@@ -46,6 +46,14 @@
   color: #972e38;
 }
 
+.embed-responsive {
+  height: 300px;
+}
+
+#soundcloud_embeds {
+  gap: 2rem;
+}
+
 @media screen and (max-width: 767px) {
   .apply {
     margin-bottom: 4rem !important;

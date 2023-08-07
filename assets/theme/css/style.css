@@ -801,12 +801,6 @@ blockquote {
   flex-wrap: wrap;
 }
 
-.row {
-  display: -webkit-flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-}
-
 .justify-content-center {
   -webkit-justify-content: center;
   justify-content: center;
@@ -1123,10 +1117,6 @@ input[type="range"] {
 
 .navbar-toggleable-xl .navbar-toggler {
   display: none;
-}
-
-.card-img {
-  width: auto;
 }
 
 .menu .navbar.collapsed:not(.beta-menu) {
