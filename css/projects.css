@@ -1,3 +1,7 @@
+#poem {
+  text-align: center;
+}
+
 .projects {
   position: relative;
   top: 90px;
@@ -19,8 +23,16 @@
 .card-box {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+}
+
+.card-box i {
+  color: #972e38;
+  min-height: 360px;
+}
+
+.card-box p {
+  min-height: 155px;
 }
 
 .cta-btn {
@@ -42,10 +54,6 @@
   min-height: 36px;
 }
 
-.poem {
-  color: #972e38;
-}
-
 .embed-responsive {
   height: 300px;
 }
@@ -64,6 +72,14 @@
   }
 
   .card-img {
+    min-height: unset;
+  }
+
+  .card-box i {
+    min-height: unset;
+  }
+
+  .card-box p {
     min-height: unset;
   }
 
