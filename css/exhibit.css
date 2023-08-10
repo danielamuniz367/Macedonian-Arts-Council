@@ -1,65 +1,57 @@
-  
+.cards {
+  display: flex;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  overflow-x: scroll;
+  background-color: white;
+  position: relative;
+}
 
-  
-  .cards {
-    display: flex;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    overflow-x: scroll;
-    background-color: white; 
-    position: relative; 
-  }
-  
- 
+.card-author {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 60px;
+  align-items: center;
+}
 
-  .card-author{
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 60px;
-    align-items: center;
-  }
-  
-  .author-name{
-    font-family: "Lora", serif;
-    font-size: 14px;
-    line-height: 1.5rem;
-  }
-  
-  .author-name-prefix{
-    color: #000000;
-    font-family: arial;
-    font-weight: bold;
-  }
-  
-  
-  /*  card scrollbar */
-  .cards::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-  }
-  
-  /* Card Hover */
- 
-  
-  /*.card:hover ~ .card {
+.carousel-inner,
+.carousel-item,
+img {
+  height: 100%;
+}
+
+.author-name {
+  font-family: "Lora", serif;
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+
+.author-name-prefix {
+  color: #000000;
+  font-family: arial;
+  font-weight: bold;
+}
+
+/*  card scrollbar */
+.cards::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Card Hover */
+
+/*.card:hover ~ .card {
     transform: translateX(130px);
   }*/
-  
-  
- /* .card:nth-child(4) {
+
+/* .card:nth-child(4) {
     z-index: 4;
   }*/
 
-  
-  
-  
-  
-  /* Card Responsive */
-  
-  @media (max-width: 989px) {
-    .cards {
-        font-size: 12pt !important;
-    }
+/* Card Responsive */
+
+@media (max-width: 989px) {
+  .cards {
+    font-size: 12pt !important;
   }
-  
-  
+}
