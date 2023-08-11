@@ -1,3 +1,7 @@
+#flipped-stroke {
+  transform: scaleX(-1);
+}
+
 .about {
   position: relative;
   top: 90px;
