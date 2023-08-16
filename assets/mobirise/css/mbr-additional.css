@@ -8535,14 +8535,14 @@ section.lazy-placeholder:after {
   flex-direction: row;
   -webkit-flex-direction: row;
 }
-.cid-row2962sBl .timeline-element:hover .mbr-timeline-date {
-  box-shadow: 0 7px 20px 0px rgba(0, 0, 0, 0.08);
-  transition: all 0.4s;
-}
+.cid-row2962sBl .timeline-element:hover .mbr-timeline-date,
 .cid-row2962sBl .timeline-element:hover .timeline-text-content {
+  cursor: pointer;
+  background-color: #f7e22d;
   box-shadow: 0 7px 20px 0px rgba(0, 0, 0, 0.08);
   transition: all 0.4s;
 }
+
 .cid-row2962sBl .mbr-timeline-date,
 .cid-row2962sBl .timeline-text-content {
   transition: all 0.4s;
