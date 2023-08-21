@@ -21,7 +21,7 @@
 
 .mbr-section-subtitle {
   text-align: justify;
-  text-align-last: center;
+  text-align-last: justify;
   /* font-size: 24px; */
 }
 
@@ -83,7 +83,6 @@ blockquote {
 }
 img {
   display: block !important;
-  max-width: 100% !important;
 }
 .language1 {
   top: 100px;
@@ -137,6 +136,10 @@ img {
 .movie7 {
   position: relative;
   top: -44px;
+}
+
+.redline {
+  height: 30px;
 }
 /*1199*/
 @media only screen and (max-width: 1199px) {
