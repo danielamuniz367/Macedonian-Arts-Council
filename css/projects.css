@@ -1,5 +1,5 @@
-#poem {
-  text-align: center;
+.audio-text {
+  text-align-last: justify;
 }
 
 .projects {
@@ -35,14 +35,28 @@
   min-height: 155px;
 }
 
+#poem {
+  text-align: center;
+}
+
+.justify-all {
+  text-align: justify;
+  text-justify: inter-word;
+  text-align-last: justify;
+}
+
 .cta-btn {
   border-radius: 100px !important;
   min-width: 175px !important;
 }
 
-/* .card-img {
-  max-height: 150px;
-} */
+.card-img {
+  height: 350px;
+}
+
+.card-img img {
+  height: 100%;
+}
 
 .form_mailing {
   display: flex;
