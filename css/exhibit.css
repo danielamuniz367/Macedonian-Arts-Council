@@ -11,6 +11,10 @@
   position: relative;
 }
 
+#costumes-gallery {
+  height: 650px;
+}
+
 .card-author {
   position: relative;
   display: grid;
@@ -46,17 +50,19 @@ img {
   height: 10px;
 }
 
-/* Card Hover */
+.zoomed {
+  object-fit: scale-down;
+}
 
-/*.card:hover ~ .card {
-    transform: translateX(130px);
-  }*/
+.thumbnails img {
+  height: 100%;
+}
 
-/* .card:nth-child(4) {
-    z-index: 4;
-  }*/
-
-/* Card Responsive */
+@media (max-width: 576px) {
+  .thumbnails .row {
+    height: unset;
+  }
+}
 
 @media (max-width: 989px) {
   .cards {
