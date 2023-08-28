@@ -1,4 +1,7 @@
 @media screen and (max-width: 640px) {
+  .thumbnails img {
+    margin-bottom: 1rem;
+  }
   .zoomed {
     display: none;
   }
@@ -14,3 +17,7 @@
 .zoom {
   cursor: pointer;
 }
+/* 
+.tourpar p {
+  text-align-last: justify;
+} */
