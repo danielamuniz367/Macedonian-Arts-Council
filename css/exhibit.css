@@ -58,9 +58,14 @@ img {
   height: 100%;
 }
 
-@media (max-width: 576px) {
-  .thumbnails .row {
+@media (max-width: 768px) {
+  .thumbnails .row,
+  #costumes-gallery {
     height: unset;
+  }
+
+  .zoomed {
+    display: none;
   }
 }
 
