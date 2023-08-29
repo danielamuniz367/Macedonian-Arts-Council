@@ -1,3 +1,7 @@
+/*
+This is used to create the photo gallery in exhibit and doors .html files. 
+*/
+
 Array.from(document.querySelectorAll(".thumbnails img")).forEach(
   (hoverImage) => {
     hoverImage.addEventListener("mouseover", (e) => {
