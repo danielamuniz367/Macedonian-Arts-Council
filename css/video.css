@@ -1,3 +1,7 @@
 .move {
-    height: 300px !important;
+  height: 300px !important;
+}
+
+#gotse {
+  background-color: black;
 }

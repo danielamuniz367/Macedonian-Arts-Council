@@ -403,10 +403,12 @@
         </div>
       </section>
 
-      <section class="move">
-        <div class="container px-5 py-5">
+      <section>
+        <div class="container px-5">
           <div class="row">
-            <div class="col-12 align-center text-center map-quote">
+            <div
+              class="col d-flex flex-column align-center text-center map-quote"
+            >
               <div>
                 <hr
                   class="line"
@@ -420,12 +422,17 @@
                     font-weight: 100;
                   "
                 >
-                  - In my life I had two mothers: Macedonia who gave me
-                  birth,and America who adopted me -
+                  - In my life I had two mothers: Macedonia who gave me birth,
+                  and America who adopted me -
                 </p>
               </div>
 
-              <img src="./Images/sign.png" height="12%" alt="" />
+              <img
+                src="./Images/sign.png"
+                class="object-fit-contain"
+                style="height: 50px"
+                alt=""
+              />
               <hr
                 class="line"
                 style="width: 25%; background-color: #d82126; height: 1.5px"
@@ -436,7 +443,7 @@
       </section>
 
       <section>
-        <div class="container pb-0 pb-5">
+        <div class="container">
           <div class="row py-5 iframe-video-div iframe-video-div-map mx-auto">
             <div class="mbr-figure col-12 p-md-0">
               <div class="maintain-aspect-ratio">
@@ -456,107 +463,68 @@
       <!--test-->
       <!--end test-->
 
-      <section style="color: #767676; padding-bottom: 70px">
+      <section>
         <div class="container">
-          <div class="row mx-auto">
+          <div class="row">
             <div
-              class="col-sm-12 col-md-12 col-lg-6 justify-content-center py-lg-5 px-md-0"
-              id="art-whispers"
+              class="col-sm-12 col-md-12 col-lg-6 justify-content-center mb-5"
             >
-              <div class="text-center pb-4">
-                <p
-                  class="h5 mbr-section-title mbr-fonts-style mbr-black display-1"
-                  id="video-title-smaller"
-                  style="font-size: 2em"
-                >
-                  GOTSE
-                </p>
-              </div>
-
-              <div
-                class="mbr-section-btn pb-5 pb-lg-0 pt-4 whispers-com-button mt-3"
-              >
-                <a
-                  href="https://www.paypal.com/us/fundraiser/charity/1386780"
-                  target="_blank"
-                >
-                  <input
-                    class="btn btn-success-outline display-4 home-card-button com-buy"
-                    type="button"
-                    name="donate"
-                    value="Donate Now"
-                    alt="Donate"
-                  />
-                </a>
-              </div>
-            </div>
-
-            <div
-              class="col-sm-12 col-md-12 col-lg-6 justify-content-center py-5 px-md-0"
-            >
-              <div class="text-center pb-4">
-                <p
-                  class="h5 mbr-section-title mbr-fonts-style mbr-black display-1"
-                  id="video-title-larger"
-                  style="font-size: 2em"
-                >
-                  COLORS OF MACEDONIA
-                </p>
-              </div>
-
-              <div class="iframe-video-div mx-auto" id="col-of-mac">
-                <div class="mbr-figure text-center">
-                  <div class="maintain-aspect-ratio">
-                    <iframe
-                      class="mbr-embedded-video"
-                      src="https://www.youtube.com/embed/gfp1DZpn5yU"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                  <div class="mbr-text mbr-fonts-style display-7 grey-font">
-                    <p class="align-left pt-2">
-                      Commissioned and produced by the PBS affiliate KOCE-TV.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="pt-4 whispers-com-button">
-                <form
-                  action="https://www.paypal.com/cgi-bin/webscr"
-                  method="post"
-                  target="_blank"
-                >
-                  <input type="hidden" name="cmd" value="_s-xclick" />
-                  <input
-                    type="hidden"
-                    name="hosted_button_id"
-                    value="XUBHBEGJPMXHA"
-                  />
-                  <div class="mbr-section-btn pb-5 pb-lg-0">
+              <div class="d-flex flex-column h-100">
+                <p class="display-5 text-center">GOTSE</p>
+                <img
+                  id="gotse"
+                  class="w-100 object-fit-contain border h-100"
+                  src="assets/images/gotse-poster2 copy.jpg"
+                />
+                <div class="col mbr-section-btn whispers-com-button mt-3">
+                  <a
+                    href="https://www.youtube.com/watch?v=oVeA3mzfXPY"
+                    target="_blank"
+                  >
                     <input
                       class="btn btn-success-outline display-4 home-card-button com-buy"
-                      type="submit"
-                      name="submit"
-                      value="Stream Now"
-                      alt="Colors of Macedonia"
-                      target="_blank"
+                      type="button"
+                      name="donate"
+                      value="Watch Teaser"
+                      alt="Donate"
                     />
-                  </div>
-                  <img
-                    alt=""
-                    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-                    width="1"
-                    height="1"
-                    sfoikgoh7=""
-                  /><input type="hidden" name="landing_page" value="Billing" />
-                </form>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-sm-12 col-md-12 col-lg-6 justify-content-center mb-5"
+            >
+              <div class="d-flex flex-column">
+                <p class="display-5 text-center">COLORS OF MACEDONIA</p>
+                <div class="maintain-aspect-ratio">
+                  <iframe
+                    class="mbr-embedded-video"
+                    src="https://www.youtube.com/embed/gfp1DZpn5yU"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <div class="col mbr-section-btn whispers-com-button mt-3">
+                  <a
+                    href="https://www.paypal.com/us/fundraiser/charity/1386780"
+                    target="_blank"
+                  >
+                    <input
+                      class="btn btn-success-outline display-4 home-card-button com-buy"
+                      type="button"
+                      name="donate"
+                      value="Donate Now"
+                      alt="Donate"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
+          <div class="row"></div>
         </div>
       </section>
     </main>
