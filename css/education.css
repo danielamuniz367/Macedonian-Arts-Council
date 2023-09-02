@@ -157,3 +157,12 @@
     position: relative;
   }
 }
+
+#video {
+  background-color: black;
+}
+
+.stoyan {
+  background-color: black;
+  height: 303.75px;
+}
